@@ -1,0 +1,46 @@
+{
+  "name": "ananke-test",
+  "version": "1.0.1",
+  "description": "ananke test",
+  "author": "Ben Fox <ben.fox@sibly.co>",
+  "homepage": "",
+  "license": "ISC",
+  "private": true,
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@ananke/config-ssm-convict": "^1.0.0",
+    "@ananke/runtime": "^1.0.22",
+    "@ananke/sequelize": "^1.0.0",
+    "@hapi/boom": "^9.1.0",
+    "@sentry/node": "^5.21.4",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.19",
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {
+    "@ananke/serverless": "^1.0.23",
+    "@tsconfig/node12": "^1.0.7",
+    "@types/bunyan": "^1.8.6",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/lodash": "^4.14.159",
+    "@types/node": "^14.0.27",
+    "@types/sequelize": "^4.28.9",
+    "@types/serverless": "^1.72.5",
+    "aws-sdk": "^2.739.0",
+    "serverless-offline": "^6.5.0",
+    "serverless-pseudo-parameters": "^2.5.0",
+    "typescript": "^4.0.2"
+  },
+  "gitHead": "438f89ce40c1ef079dd6b5a44cc24529728f5eef"
+}
